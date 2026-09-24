@@ -1,6 +1,6 @@
 # Student Management System
 
-A console-based Student Management System developed using **Java, OOP, JDBC, and MySQL**. The project provides student CRUD operations, authentication, role-based access, course search, validation, and department integration.
+A console-based Student Management System developed using Java, OOP, JDBC, and MySQL. The project provides student CRUD operations, authentication, role-based access, course search, validation, and department integration.
 
 ## Project Overview
 
@@ -53,33 +53,25 @@ The project demonstrates practical implementation of:
 
 ```text
 StudentManagementSystem
-│
 ├── .vscode
 │   └── settings.json
-│
 ├── lib
 │   └── mysql-connector-j-26.7.0.jar
-│
 ├── screenshots
 │   ├── login.png
 │   ├── admin-menu.png
 │   ├── students-list.png
 │   └── students-department.png
-│
 ├── src
 │   ├── dao
 │   │   ├── LoginDAO.java
 │   │   └── StudentDAO.java
-│   │
 │   ├── model
 │   │   ├── Department.java
 │   │   └── Student.java
-│   │
 │   ├── util
 │   │   └── DatabaseConnection.java
-│   │
 │   ├── Main.java
 │   └── TestConnection.java
-│
 ├── README.md
 └── .gitignore
