@@ -29,6 +29,7 @@ A Java-based Student Management System developed using Object-Oriented Programmi
 - MySQL
 - MySQL Connector/J
 - Visual Studio Code
+- Git & GitHub
 
 ## Project Structure
 
@@ -40,6 +41,12 @@ StudentManagementSystem
 │
 ├── lib
 │   └── mysql-connector-j-26.7.0.jar
+│
+├── screenshots
+│   ├── login.png
+│   ├── admin-menu.png
+│   ├── students-list.png
+│   └── students-department.png
 │
 ├── src
 │   ├── dao
@@ -56,4 +63,5 @@ StudentManagementSystem
 │   ├── Main.java
 │   └── TestConnection.java
 │
+├── .gitignore
 └── README.md
