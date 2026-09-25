@@ -155,21 +155,14 @@ Normal users can:
 
 Users cannot add, update, or delete student records.
 
-## Login
+## Login & Role-Based Access
 
-Demo login credentials used for testing:
+The application provides authentication with two roles:
 
-### Admin
+- **ADMIN** – Can add, view, update, delete and search student records.
+- **USER** – Can view and search student records.
 
-- Username: `admin`
-- Password: `admin123`
-- Role: `ADMIN`
-
-### User
-
-- Username: `student`
-- Password: `student123`
-- Role: `USER`
+> Demo credentials are intentionally not published in this repository.
 
 > Note: Plain-text passwords are used only for this academic/demo project. Production applications should store passwords using secure password hashing.
 
@@ -248,9 +241,7 @@ The project demonstrates:
 
 ## Screenshots
 
-### Login Screen
 
-![Login Screen](screenshots/login.png)
 
 ### Admin Menu
 
